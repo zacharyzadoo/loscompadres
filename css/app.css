@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Zilla+Slab');
+
+.contact h1 {font-family: 'Alegreya', serif;
+             font-size: 2em; background-color: #ED8C1E;}
+.events h1 {font-family: 'Alegreya', serif;
+            color: white; font-size: 2em; background-color: #316767;}
+
+.contact p {font-family: 'Zilla Slab', serif;
+            font-size: 1.25em; line-height: .75em;}
+.events p {font-family: 'Zilla Slab', serif;
+                        font-size: 1.25em; line-height: 1.15em;}
+
+.contact div {background-color: #D9C5B0;}
+.events div {background-color: #FCF3CF;}

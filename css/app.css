@@ -1,14 +1,74 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Zilla+Slab');
 
-.contact h1 {font-family: 'Alegreya', serif;
-             font-size: 2em; background-color: #ED8C1E;}
-.events h1 {font-family: 'Alegreya', serif;
-            color: white; font-size: 2em; background-color: #316767;}
+.contact h1 {
+  font-family: 'Alegreya', serif;
+ font-size: 2em;
+ background-color: #ED8C1E;
+}
+.events h1 {
+  font-family: 'Alegreya', serif;
+  color: white; font-size: 2em;
+  background-color: #316767;
+}
 
-.contact p {font-family: 'Zilla Slab', serif;
-            font-size: 1.25em; line-height: .75em;}
-.events p {font-family: 'Zilla Slab', serif;
-                        font-size: 1.25em; line-height: 1.15em;}
+.contact p {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.25em; line-height: .75em;
+}
+.events p {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.25em; line-height: 1.15em;
+}
+.contact div {
+  background-color: #D9C5B0;
+}
+.events div {
+  background-color: #FCF3CF;
+}
 
-.contact div {background-color: #D9C5B0;}
-.events div {background-color: #FCF3CF;}
+/* MENU SECTION */
+@font-face { /* HEADLINE FONT temp*/
+    font-family: 'elsancho';
+    src: url('elsanchorancho-webfont.woff2') format('woff2'),
+         url('elsanchorancho-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu_container {
+  overflow: hidden;
+  height: auto;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-top: 2px solid rgb(237,140,30);
+  border-left: 2px solid rgb(237,140,30);
+  border-right: 2px solid rgb(237,140,30);
+}
+.menu_container ul {
+  list-style: none;
+}
+.menu_item {
+  padding: 0;
+  margin-left: 0;
+  height: auto;
+  margin-top: 0.5em;
+  padding-bottom: 0.5em;
+  min-height: 3em;
+  border-bottom: 1px solid rgb(237,140,30);
+}
+.item_name {
+  margin-left: 0.5em;
+  float: left;
+  font-size: 1.5em;
+
+}
+.price {
+  margin-right: 0.5em;
+  float: right;
+  font-size: 1.6em;
+
+}
+.item_desc {
+  margin-left: 0.5em;
+  clear: left;
+  font-size: 1.2em;
+}

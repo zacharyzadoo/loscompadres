@@ -3,12 +3,12 @@
 .contact h1 {
   font-family: 'Alegreya', serif;
  font-size: 2em;
- background-color: #EFE4CC;
+ background-color: #677B64;
 }
 .events h1 {
   font-family: 'Alegreya', serif;
   color: white; font-size: 2em;
-  background-color: #B9792E;
+  background-color: #DBB281;
 }
 
 .contact p {
@@ -20,10 +20,10 @@
   font-size: 1.25em; line-height: 1.15em;
 }
 .contact div {
-  background-color: #677B64;
+  background-color: #EFE4CC;
 }
 .events div {
-  background-color: #DBB281;
+  background-color: #B9792E;
 }
 
 /* MENU SECTION */

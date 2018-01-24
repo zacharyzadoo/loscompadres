@@ -3,12 +3,12 @@
 .contact h1 {
   font-family: 'Alegreya', serif;
  font-size: 2em;
- background-color: #EFE4CC;
+ background-color: #ED8C1E;
 }
 .events h1 {
   font-family: 'Alegreya', serif;
   color: white; font-size: 2em;
-  background-color: #DBB281;
+  background-color: #316767;
 }
 
 .contact p {
@@ -20,10 +20,10 @@
   font-size: 1.25em; line-height: 1.15em;
 }
 .contact div {
-  background-color: #677B64;
+  background-color: #D9C5B0;
 }
 .events div {
-  background-color: #B9792E;
+  background-color: #FCF3CF;
 }
 
 /* MENU SECTION */
@@ -76,9 +76,7 @@
 
 /* Lunch Menu */
 
-.lunch {
-    background-image: url("images/texture.jpg");
-}
+
 .lunch_container{
   border-top: 2px solid rgb(178,61,20);
   border-bottom: 2px solid rgb(178,61,20);

@@ -3,12 +3,20 @@
 .contact h1 {
   font-family: 'Alegreya', serif;
  font-size: 2em;
+<<<<<<< HEAD
  background-color: #ED8C1E;
+=======
+ background-color: #677B64;
+>>>>>>> b5d985f1f1cbcc2d4953d7a0b4d02c7a7cb158e8
 }
 .events h1 {
   font-family: 'Alegreya', serif;
   color: white; font-size: 2em;
+<<<<<<< HEAD
   background-color: #316767;
+=======
+  background-color: #B9792E;
+>>>>>>> b5d985f1f1cbcc2d4953d7a0b4d02c7a7cb158e8
 }
 
 .contact p {
@@ -20,10 +28,17 @@
   font-size: 1.25em; line-height: 1.15em;
 }
 .contact div {
+<<<<<<< HEAD
   background-color: #D9C5B0;
 }
 .events div {
   background-color: #FCF3CF;
+=======
+  background-color: #EFE4CC;
+}
+.events div {
+  background-color: #DBB281;
+>>>>>>> b5d985f1f1cbcc2d4953d7a0b4d02c7a7cb158e8
 }
 
 /* MENU SECTION */

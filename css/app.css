@@ -105,3 +105,20 @@ ul {
   border-bottom-style: double;
   border-bottom-color: rgb(217,197,176);
 }
+
+
+/* About Us Page */
+.aboutus {
+  background-image: url("../images/about_texture.jpg");
+}
+
+.about_header {
+  text-align: center;
+  font-family: 'latiniaBlack';
+}
+
+.about {
+  text-align: center;
+  font-family: 'latinia';
+   font-size: 1.2em;
+}

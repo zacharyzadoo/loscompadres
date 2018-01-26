@@ -15,26 +15,30 @@
  font-size: 2em;
  background-color: #677B64;
 }
-.events h1 {
-  font-family: 'Alegreya', serif;
-  color: white; font-size: 2em;
-  background-color: #B9792E;
+.contact a {
+  color: white;
 }
-
 .contact p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: .75em;
+}
+.contact div {
+  background-color: #677B64;
+}
+
+.events h1 {
+  font-family: 'Alegreya', serif;
+  color: white; font-size: 2em;
+  background-color: #DBB281;
+}
+.events a {
+  color: white;
 }
 .events p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: 1.15em;
 }
-.contact div {
-  background-color: #D9C5B0;
-}
-.events div {
-  background-color: #EFE4CC;
-}
+
 .events div {
   background-color: #DBB281;
 }

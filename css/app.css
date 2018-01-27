@@ -15,26 +15,30 @@
  font-size: 2em;
  background-color: #677B64;
 }
-.events h1 {
-  font-family: 'Alegreya', serif;
-  color: white; font-size: 2em;
-  background-color: #B9792E;
+.contact a {
+  color: white;
 }
-
 .contact p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: .75em;
+}
+.contact div {
+  background-color: #677B64;
+}
+
+.events h1 {
+  font-family: 'Alegreya', serif;
+  color: white; font-size: 2em;
+  background-color: #DBB281;
+}
+.events a {
+  color: white;
 }
 .events p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: 1.15em;
 }
-.contact div {
-  background-color: #D9C5B0;
-}
-.events div {
-  background-color: #EFE4CC;
-}
+
 .events div {
   background-color: #DBB281;
 }
@@ -48,10 +52,10 @@
   height: auto;
   margin-bottom: 2em;
   padding-bottom: 2em;
-  border-top: 2px solid rgb(237,140,30);
-  border-left: 2px solid rgb(237,140,30);
-  border-right: 2px solid rgb(237,140,30);
-  background-image: url('../images/wov.png');
+  /*border-top: 2px solid rgb(237,140,30);*/
+  /*border-left: 2px solid rgb(237,140,30);
+  border-right: 2px solid rgb(237,140,30);*/
+  /*background-image: url('../images/wov.png');*/
 }
 .menu_container ul {
   list-style: none;
@@ -60,10 +64,11 @@
   padding: 0;
   margin-left: 0;
   height: auto;
-  margin-top: 0.5em;
+  padding-top: 0.5em;
   padding-bottom: 0.5em;
   min-height: 3em;
   border-bottom: 2px dotted rgb(237,140,30);
+  background-image: url('../images/wov.png');
 }
 .item_name {
   font-family: 'El Messiri', sans-serif;
@@ -72,6 +77,7 @@
   float: left;
   font-size: 1.5em;
   margin-bottom: 0;
+  line-height: 1.2em;
 }
 .item_desc {
   font-family: 'Ubuntu', sans-serif;
@@ -93,6 +99,7 @@
 }
 .menu_title {
   font-family: 'el_sancho_ranchoregular';
+  font-size: 3em;
 }
 ul {
   margin: 0;

@@ -10,6 +10,8 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Eczar');
+
 .contact h1 {
   font-family: 'Alegreya', serif;
  font-size: 2em;
@@ -115,18 +117,21 @@ ul {
 
 
 /* About Us Page */
-.aboutus {
-  background-image: url("images/ricepaper_v3.png");
+
+.about_us {
+  background-image: url("../images/texture4.png");
+
 }
 
 .about_header {
   text-align: center;
-  font-family: 'latiniaBlack';
+  font-family: 'Eczar', serif;
 }
+
 
 .about {
   text-align: center;
-  font-family: 'latinia';
+  font-family: 'Eczar', serif;
    font-size: 1.2em;
 }
 

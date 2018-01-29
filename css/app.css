@@ -129,3 +129,48 @@ ul {
   font-family: 'latinia';
    font-size: 1.2em;
 }
+
+/* Index */
+
+.title {font-weight: bold;
+        display: inline;}
+
+nav {
+  font-weight: bolder;
+}
+
+/* Style */
+#navbar {
+  overflow: hidden;
+  background-color: #FFCD64;
+}
+
+/* Nav links */
+#navbar a {
+  float: right;
+  display: inline;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}

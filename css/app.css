@@ -118,23 +118,23 @@ ul {
 
 /* About Us Page */
 
-.about_us {
-  background-image: url("../images/texture4.png");
-
+.aboutus {
+  background-image: url("../images/ricepaper.png");
+  background-position: cover
+  b
 }
 
-.about_header {
+#about_header {
   text-align: center;
   font-family: 'Eczar', serif;
 }
 
 
-.about {
+#about {
   text-align: center;
   font-family: 'Eczar', serif;
    font-size: 1.2em;
 }
-
 /* Index */
 
 /* Style the navbar */

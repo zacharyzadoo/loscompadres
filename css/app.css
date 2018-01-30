@@ -120,13 +120,11 @@ ul {
 
 .aboutus {
   background-image: url("../images/ricepaper.png");
-  background-position: cover
-  b
 }
 
 #about_header {
   text-align: center;
-  font-family: 'Eczar', serif;
+  font-family: 'El Messiri', sans-serif;
   font-size: 3em;
 }
 

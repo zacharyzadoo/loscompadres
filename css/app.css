@@ -13,7 +13,8 @@
 @import url('https://fonts.googleapis.com/css?family=Eczar');
 
 .contact h1 {
-  font-family: 'Alegreya', serif;
+  /* font-family: 'Alegreya', serif; */
+ font-family: 'El Messiri', sans-serif;
  font-size: 2em;
  background-color: #677B64;
 }
@@ -23,13 +24,15 @@
 .contact p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: .75em;
+  color: #EEE9B7;
 }
 .contact div {
   background-color: #677B64;
 }
 
 .events h1 {
-  font-family: 'Alegreya', serif;
+  /* font-family: 'Alegreya', serif; */
+  font-family: 'El Messiri', sans-serif;
   color: white; font-size: 2em;
   background-color: #DBB281;
 }

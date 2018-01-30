@@ -137,43 +137,44 @@ ul {
 
 /* Index */
 
-.title {font-weight: bold;
-        display: inline;}
-
-nav {
-  font-weight: bolder;
-}
-
-/* Style */
+/* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #FFCD64;
+  padding: 20px;
+  text-align: center;
+  z-index: 1;
 }
 
-/* Nav links */
+/* Navbar links */
 #navbar a {
-  float: right;
+  float: inherit;
   display: inline;
   color: black;
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  z-index: 1;
 }
 
+/* Page content */
 .content {
   padding: 16px;
 }
 
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
 }
 
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
+/* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;

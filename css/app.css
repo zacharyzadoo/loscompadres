@@ -138,16 +138,21 @@ ul {
 }
 /* Index */
 
-/* Style the navbar */
+h1 {
+  font-family: 'Alegreya';
+  font-size: 3em;
+  font-weight: bold;
+}
+
+
 #navbar {
   overflow: hidden;
   background-color: #FFCD64;
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   z-index: 1;
 }
 
-/* Navbar links */
 #navbar a {
   float: inherit;
   display: inline;
@@ -156,26 +161,23 @@ ul {
   padding: 14px;
   text-decoration: none;
   z-index: 1;
+  font-family: 'el_sancho_ranchoregular'
 }
 
-/* Page content */
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 40px;
 }
 
-/* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;

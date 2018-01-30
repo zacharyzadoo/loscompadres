@@ -33,7 +33,7 @@
 .events h1 {
   /* font-family: 'Alegreya', serif; */
   font-family: 'El Messiri', sans-serif;
-  color: white; font-size: 2em;
+  font-color: black; font-size: 2em;
   background-color: #DBB281;
 }
 .events a {
@@ -42,6 +42,7 @@
 .events p {
   font-family: 'Zilla Slab', serif;
   font-size: 1.25em; line-height: 1.15em;
+  font-color: black
 }
 
 .events div {
